@@ -1,0 +1,21 @@
+{
+  "name": "Dapp",
+  "private": true,
+  "version": "1.0.0",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "description": "Dapp Project with React.",
+  "scripts": {
+    "start": "npx parcel ./src/index.html --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "web3": "^1.0.0-beta.46"
+  }
+}

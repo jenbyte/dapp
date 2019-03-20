@@ -1,5 +1,5 @@
 {
-  "name": "Dapp",
+  "name": "DApp",
   "private": true,
   "version": "1.0.0",
   "browserslist": [
@@ -14,8 +14,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.8.4",
+    "react": "^16.0.0",
     "react-dom": "^16.8.4",
-    "web3": "^1.0.0-beta.46"
+    "truffle": "^5.0.8",
+    "web3": "^1.0.0-beta.46",
+    "zos": "^2.2.2"
+  },
+  "devDependencies": {
+    "zos-lib": "^2.2.2"
   }
 }
